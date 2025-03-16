@@ -8,7 +8,7 @@ from plotly import graph_objs as go
 # Read CSV file
 df = pd.read_csv('filled_data.csv', parse_dates=['Date'], date_format='%d-%m-%Y')
 df.columns = ['ds', 'y', 'Rel Humidity at 2 Meters (%)', 'Precipitation Corrected (mm/day)', 'Surface Soil Wetness', 'Root Zone Soil Wetness', 'Temperature at 2 Meters', 'T2M_MAX', 'T2M_MIN']
-
+#great project
 # Get the minimum and maximum dates from the CSV file
 min_date = df['ds'].min().date()
 max_date = df['ds'].max().date()
